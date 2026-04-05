@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline; 
+}
+body {
+    text-align: center;
+    background-color:#203B37;
+    font-family: sans-serif;
+}
+
+
+.head {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 63px;
+   background: #081B1B;
+   position: fixed;
+   width: 100%;
+   z-index: 100;
+
+  
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+.logo {
+    margin-left: 30px;
+}
+.logo a {
+     text-decoration: none;
+     color: #EEE8B2;
+     text-transform: uppercase;
+     font-size: 20px;
+}
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #EEE8B2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+       background: #3f3f3f;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.header{
+    height: 60vh !important;
+    background: url(./Analisamos\ a\ paleta\ de\ cores\ de\ 45\ obras\ clássicas\ das\ artes\ plásticas.jpg) no-repeat center;
+    background-size: cover;
+
+}
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#ffffff;
+    padding-top: 2rem;
+
+   
+}
+
+
+
+
+
+.titles {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color:#000000;
+  padding-top: 2rem;
+
+ 
+}
+
+p {
+  margin-bottom: 40px;
+  font-size: 25px;
+  color:#EEE8B2;
+  font-family: Arial, sans-serif;
+  padding: 0 50px;
+}
+
+
+.fotos{
+   
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    height: 30rem;
+    width: 20rem;
+    justify-items: left;
+ 
+   
+}
+
+.fotos_beso{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  height: 30rem;
+  width: 600px;
+  justify-items: left;
+
+
+
+
+}
+
+.fotos_mujer{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  height: 30rem;
+  width: 600px;
+  justify-items: left;
+
+
+
+
+}
+
+.video_sala{
+  align-items: center;
+}
+
+.content{
+  padding-bottom: 5rem;
+ border: solid #081B1B;
+ 
+}
+
+.column{
+
+  display:flex;
+  align-items: center;
+ margin-bottom: 2rem;
+ 
+}
+
+
+
+.texto{
+ 
+  font-size:2rem;
+  
+   margin-left: 4rem;
+   margin-right: 4rem;
+
+  color: #ffffff;
+}
+
+.sau {
+    padding: 30px;
+    background:#000000;
+    padding-bottom: 6rem;  
+    
+}
+
+
+
+.contact {
+  
+    padding-top: 20px;
+    background: #203B37;
+    padding-bottom: 6rem;
+  
+}
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #081B1B;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+  }
+  
+  .icon-elem {
+    list-style: none;
+  }
+  
+  .icon {
+    color: #EEE8B2;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+  }
+  
+  .icon:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+
+  }
+  
+  .menu-elem {
+    list-style: none;
+  }
+  .menu-icon {
+    color: #EEE8B2;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  
+  .menu-icon:hover {
+    opacity: 1;
+  }
+  
+  .text {
+    color: #EEE8B2;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+    
+  }

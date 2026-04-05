@@ -1,0 +1,56 @@
+.form_alumn{
+            text-align: center;
+
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            width: 500px;
+            border-radius: 10px 10px 10px 10px;
+            font-family: Arial;
+            height: 530px;
+            margin-bottom: 50px;
+            margin-top: 4rem;
+            
+}
+
+input {     margin-left: 10px;
+            width: 150px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc; 
+            float:left;
+        }
+
+
+
+input[type="submit"] {
+            background-color: #e43e4e;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 98%;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-bottom: 25px;
+
+
+
+        }
+
+.largo{
+width: 93%;
+        }
+
+.alumnos{
+        display: flex;
+}
+
+.palabra{
+        width: 6.5rem;
+        margin-top: 16px;
+}
+
+.calendario{
+        width: 90%;
+        height: 35px;
+        
+}
